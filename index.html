@@ -5,6 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trang Chủ - Trang Web Của Tôi</title>
     <style>
+    /* About section layout */
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+/* Bên trái (ảnh) */
+.about-content .left {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+
+.about-content .left img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Bên phải (nội dung) */
+.about-content .right {
+    flex: 2;
+    min-width: 300px;
+}
+
+.about-content .right h3 {
+    font-size: 2rem;
+    color: #ff5e62;
+    margin-bottom: 20px;
+}
+
+.about-content .right p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 20px;
+}
+
         /* Thiết lập cơ bản */
         * {
             margin: 0;
@@ -270,23 +314,24 @@
         <p>Khám phá sự sáng tạo và đam mê trong từng khoảnh khắc của tôi. Hãy cùng tôi hành trình này!</p>
     </section>
 
-    <!-- Phần Giới Thiệu -->
-            <section id="about">
-        <h2>Giới Thiệu Bản Thân</h2>
-        <div class="about-content">
-            <!-- Phần trái (Ảnh bản thân) -->
-            <div class="left">
-                <img src="a66ffc8b-dfa3-4d07-9e62-1e468c57917c.jpg" alt="Ảnh bản thân">
-            </div>
-
-            <!-- Phần phải (Giới thiệu chi tiết) -->
-            <div class="right">
-                <h3>Về Tôi</h3>
-                <p>Chào bạn! Tôi là <span class="highlight">BÙI THỊ KHÁNH QUỲNH </span>, một người yêu thích khám phá các nền văn hóa và ẩm thực đặc sắc từ khắp nơi trên thế giới. Tôi hiện đang sống tại <span class="highlight">QUẢNG HƯNG,QUẢNG TRẠCH,QUẢNG BÌNH </span> và học tại trường <span class="highlight">TRƯỜNG THPT LƯƠNG THẾ VINH </span>, lớp <span class="highlight">12A5 </span>.</p>
-                <p>Tôi luôn muốn truyền cảm hứng đến mọi người qua những chuyến đi và những bài viết của mình. Hy vọng bạn sẽ tìm thấy niềm vui khi ghé thăm trang web này!</p>
-            </div>
+  <!-- Phần Giới Thiệu -->
+<section id="about">
+    <h2>Giới Thiệu Bản Thân</h2>
+    <div class="about-content">
+        <!-- Phần trái (Ảnh bản thân) -->
+        <div class="left">
+            <img src="a66ffc8b-dfa3-4d07-9e62-1e468c57917c.jpg" alt="Ảnh bản thân">
         </div>
-    </section>
+
+        <!-- Phần phải (Giới thiệu chi tiết) -->
+        <div class="right">
+            <h3>Về Tôi</h3>
+            <p>Chào bạn! Tôi là <span class="highlight">BÙI THỊ KHÁNH QUỲNH</span>, một người yêu thích khám phá các nền văn hóa và ẩm thực đặc sắc từ khắp nơi trên thế giới. Tôi hiện đang sống tại <span class="highlight">QUẢNG HƯNG, QUẢNG TRẠCH, QUẢNG BÌNH</span> và học tại trường <span class="highlight">THPT LƯƠNG THẾ VINH</span>, lớp <span class="highlight">12A5</span>.</p>
+            <p>Tôi luôn muốn truyền cảm hứng đến mọi người qua những chuyến đi và những bài viết của mình. Hy vọng bạn sẽ tìm thấy niềm vui khi ghé thăm trang web này!</p>
+        </div>
+    </div>
+</section>
+
 
 
     <!-- Phần Sở Thích -->
